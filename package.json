@@ -1,0 +1,41 @@
+{
+  "name": "nodeproject",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "braintree": "^2.12.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "google-distance-matrix": "^1.1.1",
+    "http-errors": "^1.6.3",
+    "image-scraper": "^0.2.1",
+    "jade": "~1.11.0",
+    "jquery": "^3.3.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.1",
+    "mysql": "^2.16.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "serve-favicon": "^2.5.0",
+    "unirest": "^0.5.1",
+    "zomato": "^1.1.0"
+  }
+}
