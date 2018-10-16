@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+  body
+    .container
+      form(action='/login', method='POST')
+        .row
+          h2(style='text-align:center;') Lets LOgin 
+          .vl
+            span.vl-innertext or
+          .col
+            a.fb.btn(href='/auth/facebook')
+              i.fa.fa-facebook.fa-fw
+              |  Login with Facebook
+            a.twitter.btn(href='#')
+              i.fa.fa-twitter.fa-fw
+              |  Login with Twitter
+            a.google.btn(href='/auth/google')
+              i.fa.fa-google.fa-fw
+              |  Login with Google+
+          .col
+            .hide-md-lg
+              p Or sign in manually:
+            input(type='text', name='username', placeholder='Username', required='')
+            input(type='password', name='password', placeholder='Password', required='')
+            input(type='submit', value='Login')
+    .bottom-container
+      .row
+        .col
+          a.btn(href='/signuppage', style='color:white;') Sign up
+        .col
+          a.btn(href='forgot', style='color:white;') Forgot password?
